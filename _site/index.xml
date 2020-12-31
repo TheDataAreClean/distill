@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>cube</title>
+    <link>https://www.thedataareclean.com</link>
+    <atom:link href="https://www.thedataareclean.com/index.xml" rel="self" type="application/rss+xml"/>
+    <description>TheDataAreClean
+</description>
+    <image>
+      <title>cube</title>
+      <url>https://www.thedataareclean.com/images/favicon.ico</url>
+      <link>https://www.thedataareclean.com</link>
+    </image>
+    <generator>Distill</generator>
+    <lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Strengthening Financial Accountability towards Girl Education</title>
+      <dc:creator>Arpit Arora</dc:creator>
+      <dc:creator>Upsana Hembram</dc:creator>
+      <link>https://www.thedataareclean.com/posts/2020-12-28-strengthening-financial-accountability-towards-girl-education</link>
+      <description>A case for Uttar Pradesh.</description>
+      <guid>https://www.thedataareclean.com/posts/2020-12-28-strengthening-financial-accountability-towards-girl-education</guid>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

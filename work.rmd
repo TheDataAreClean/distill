@@ -1,0 +1,6 @@
+---
+title: "Work"
+description: |
+  Things I've worked on elsewhere
+---
+

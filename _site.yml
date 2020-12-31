@@ -1,0 +1,37 @@
+name: "distill"
+title: "cube"
+description: |
+  TheDataAreClean
+output_dir: "_site"
+navbar:
+  logo:
+    image: images/cube.png
+    href: https://www.thedataareclean.com
+  # source_url: https://github.com/TheDataAreClean/distill
+  search: false
+  right:
+    - text: "home"
+      href: index.html
+    - text: "about"
+      href: about.html
+    - text: "hyde"
+      href: www.thedataareclean.com
+#    - text: "Talks"
+#      href: talks.html
+#    - text: "Other writings"
+#     href: other_writings.html
+    - icon: fab fa-github
+      href: https://github.com/TheDataAreClean
+    - icon: fab fa-twitter
+      href: https://twitter.com/TheDataAreClean
+    - icon: fab fa-linkedin
+      href: https://twitter.com/u/thedataareclean
+    - icon: fa fa-rss
+      href: index.xml
+base_url: https://www.thedataareclean.com
+repository_url: https://www.github.com/thedataareclean/tdac
+output:
+  distill::distill_article:
+    css: theme.css
+favicon: images/favicon.ico
+creative_commons: CC BY
