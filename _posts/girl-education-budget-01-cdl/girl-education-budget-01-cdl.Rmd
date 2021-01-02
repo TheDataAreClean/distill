@@ -2,6 +2,8 @@
 title: "Strengthening Financial Accountability towards Girl Education"
 description: |
   A case for Uttar Pradesh.
+preview: image.jpg
+date: "12-23-2020"
 author:
   - name: "Arpit Arora"
     url: https://twitter.com/TheDataAreClean
@@ -11,7 +13,6 @@ author:
     url: https://twitter.com/watzernehm
     affiliation: CivicDataLab
     affiliation_url: https://civicdatalab.in/
-date: "12-23-2020"
 output:
   distill::distill_article:
       toc: true

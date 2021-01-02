@@ -6,20 +6,20 @@
       "description": "Data for education reform..",
       "author": [],
       "contents": "\nWork Experience\nResearcher and Statistician, CivicDataLabMay, '20 - Present\n\nUsing public finance data to investigate, advocate and advance child education and well being in rural India.\n\nCore Team Member, DataKindJul, '18 - Oct, '20\n\nPro bono consulting and community collaboration on social innovation data science projects.\n\nData Analyst, Pratham BooksJul, '18 - May, '20\n\nAnalytics strategy and architecture for the organisation’s open source and open content digital platform, StoryWeaver.\n\nData Fellow, Uptake.orgMar, '19 - Sep, '19\n\n6-month data science fellowship program to enhance the user retention on Pratham Books’ StoryWeaver.\n\nEducation\nB.Sc. (H) Statistics, Sri Venkateswara College, University of DelhiJul, '11 - May, '14\nEngagements\nGuest Lecturer, Srishti Institute of Art, Design and Technology\n\nData driven design and real world applications.\n\nData Privacy Primer\n\nSession on the basics of internet privacy, the landscape and individual action.\n\nSee Resume\n\n\n\n",
-      "last_modified": "2021-01-02T09:22:28+05:30"
+      "last_modified": "2021-01-02T16:18:53+05:30"
     },
     {
       "path": "index.html",
       "title": "Posts",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-01-02T09:22:29+05:30"
+      "last_modified": "2021-01-02T16:18:54+05:30"
     },
     {
       "path": "README.html",
       "author": [],
       "contents": "\nTheDataAreClean\n\nWhat I want you to know about me.\n\nThis website is built using built using the distill package in R.\nDistill\nDistill for R Markdown is based on the Distill web framework, which was originally created for use in the Distill Machine Learning Journal. Distill for R Markdown combines the technical authoring features of Distill with R Markdown, enabling a fully reproducible workflow based on literate programming.\nTheme\nThe theme is inspired (read copied) from Miles McBain’s blog Before I Sleep.\nLicenses\nCode\nThe repository code is kept under the MIT License.\nText\nThis work is licensed under a Creative Commons Attribution 4.0 International License.\n\n\n",
-      "last_modified": "2021-01-02T09:22:29+05:30"
+      "last_modified": "2021-01-02T16:18:54+05:30"
     },
     {
       "path": "work.html",
@@ -27,7 +27,7 @@
       "description": "Things I've worked on elsewhere",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-01-02T09:22:29+05:30"
+      "last_modified": "2021-01-02T16:18:54+05:30"
     }
   ],
   "collections": ["posts/posts.json"]
