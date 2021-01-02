@@ -8,18 +8,21 @@ navbar:
     image: images/cube.png
     href: https://www.thedataareclean.com
   # source_url: https://github.com/TheDataAreClean/distill
-  search: false
+  search: true
   right:
     - text: "home"
       href: index.html
     - text: "about"
       href: about.html
-    - text: "hyde"
-      href: www.thedataareclean.com
-#    - text: "Talks"
-#      href: talks.html
-#    - text: "Other writings"
-#     href: other_writings.html
+    - text: "other"
+      menu: 
+        - text: "hyde"
+          href: https://hyding.netlify.app
+        - text: "aRt"
+          href: https://github.com/TheDataAreClean/aRt
+        - text: "---"
+        - text: "100 days"
+          href: https://github.com/TheDataAreClean/hugo.386
     - icon: fab fa-github
       href: https://github.com/TheDataAreClean
     - icon: fab fa-twitter
@@ -29,7 +32,7 @@ navbar:
     - icon: fa fa-rss
       href: index.xml
 base_url: https://www.thedataareclean.com
-repository_url: https://www.github.com/thedataareclean/tdac
+repository_url: https://www.github.com/thedataareclean/distill
 output:
   distill::distill_article:
     css: theme.css
