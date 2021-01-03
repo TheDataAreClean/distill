@@ -1995,6 +1995,35 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (!/posts/.test(location.pathname)) {
+        return;
+      }
+
+      var script = document.createElement("script");
+      script.src = "https://utteranc.es/client.js";
+      script.setAttribute("repo", "TheDataAreClean/distill");
+      script.setAttribute("issue-term", "title");
+      script.setAttribute("crossorigin", "anonymous");
+      script.setAttribute("label", "comment 💬");
+      script.setAttribute("theme", "github-dark");
+
+      /* wait for article to load, append script to article element */
+      var observer = new MutationObserver(function (mutations, observer) {
+        var article = document.querySelector("d-article");
+        if (article) {
+          observer.disconnect();
+          /* HACK: article scroll */
+          article.setAttribute("style", "overflow-y: hidden");
+          article.appendChild(script);
+        }
+      });
+
+      observer.observe(document.body, { childList: true });
+    });
+  </script>
+
   <style type="text/css">
   /* Import fonts from Google's API */
   @import url('https://fonts.googleapis.com/css2?family=Cardo');
@@ -2068,6 +2097,34 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
   <!--/radix_placeholder_site_in_header-->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (!/posts/.test(location.pathname)) {
+        return;
+      }
+
+      var script = document.createElement("script");
+      script.src = "https://utteranc.es/client.js";
+      script.setAttribute("repo", "TheDataAreClean/distill");
+      script.setAttribute("issue-term", "title");
+      script.setAttribute("crossorigin", "anonymous");
+      script.setAttribute("label", "comment 💬");
+      script.setAttribute("theme", "github-dark");
+
+      /* wait for article to load, append script to article element */
+      var observer = new MutationObserver(function (mutations, observer) {
+        var article = document.querySelector("d-article");
+        if (article) {
+          observer.disconnect();
+          /* HACK: article scroll */
+          article.setAttribute("style", "overflow-y: hidden");
+          article.appendChild(script);
+        }
+      });
+
+      observer.observe(document.body, { childList: true });
+    });
+  </script>
 
   <link rel="stylesheet" href="theme.css" type="text/css"/>
 
