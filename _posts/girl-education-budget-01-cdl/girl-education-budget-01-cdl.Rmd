@@ -20,10 +20,11 @@ output:
 citation_url: https://medium.com/civicdatalab/strengthening-financial-accountability-towards-girl-education-b9e3ba9be7d9
 ---
 
-
 ```{r, layout = "l-body-outset"}
 knitr::include_graphics("image.jpg")
 ```
+
+<span style="font-size:smaller;">_Figure from [Unsplash](https://unsplash.com/) by [jaikishan patel](https://unsplash.com/@magictype)._</span>
 
 # Girl Education and India
 

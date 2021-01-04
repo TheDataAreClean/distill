@@ -19,6 +19,10 @@
     font-weight: 400;
 }
 
+.nav-dropdown > button {
+    color: black !important;
+}
+
 .distill-site-nav a:hover {
     color: #ff00ff;
 }

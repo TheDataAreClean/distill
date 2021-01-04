@@ -4,7 +4,7 @@ description: |
   Data for education reform..
 ---
 
-## `Work Experience`
+## Work Experience
 
 **Researcher and Statistician**, [CivicDataLab](https://civicdatalab.in/)  
 `May, '20 - Present`
@@ -27,12 +27,12 @@ description: |
 
 > 6-month data science fellowship program to enhance the user retention on Pratham Books' StoryWeaver.
 
-## `Education`
+## Education
 
 **B.Sc. (H) Statistics**, Sri Venkateswara College, University of Delhi  
 `Jul, '11 - May, '14`
 
-## `Engagements`
+## Engagements
 
 **Guest Lecturer**, [Srishti Institute of Art, Design and Technology](http://www.srishti.ac.in/)  
 
