@@ -6,7 +6,7 @@ output_dir: "_site"
 navbar:
   logo:
     image: images/cube.png
-    href: https://www.thedataareclean.com
+    href: https://thedataareclean.com
   # source_url: https://github.com/TheDataAreClean/distill
   search: true
   right:
@@ -17,12 +17,12 @@ navbar:
     - text: "other"
       menu: 
         - text: "hyde"
-          href: https://hyding.netlify.app
+          href: https://hyde.thedataareclean.com
         - text: "aRt"
           href: https://github.com/TheDataAreClean/aRt
         - text: "---"
         - text: "100 days"
-          href: https://github.com/TheDataAreClean/hugo.386
+          href: https://100-days.thedataareclean.com
     - icon: fab fa-github
       href: https://github.com/TheDataAreClean
     - icon: fab fa-twitter
@@ -31,7 +31,7 @@ navbar:
       href: https://twitter.com/u/thedataareclean
     - icon: fa fa-rss
       href: index.xml
-base_url: https://www.thedataareclean.com
+base_url: https://thedataareclean.com
 repository_url: https://www.github.com/thedataareclean/distill
 output:
   distill::distill_article:
