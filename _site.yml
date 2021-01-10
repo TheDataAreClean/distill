@@ -28,7 +28,7 @@ navbar:
     - icon: fab fa-twitter
       href: https://twitter.com/TheDataAreClean
     - icon: fab fa-linkedin
-      href: https://twitter.com/u/thedataareclean
+      href: https://www.linkedin.com/in/thedataareclean/
     - icon: fa fa-rss
       href: index.xml
 base_url: https://thedataareclean.com
