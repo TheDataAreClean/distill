@@ -24,7 +24,7 @@ citation_url: https://medium.com/civicdatalab/strengthening-financial-accountabi
 knitr::include_graphics("image.jpg")
 ```
 
-<span style="font-size:smaller;">_Figure from [Unsplash](https://unsplash.com/) by [jaikishan patel](https://unsplash.com/@magictype)._</span>
+<span style="font-size:smaller;">_Figure from [Unsplash](https://unsplash.com/){target="_blank"} by [jaikishan patel](https://unsplash.com/@magictype){target="_blank"}._</span>
 
 # Girl Education and India
 

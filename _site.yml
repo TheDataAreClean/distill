@@ -12,6 +12,8 @@ navbar:
   right:
     - text: "home"
       href: index.html
+    - text: "work"
+      href: work.html
     - text: "about"
       href: about.html
     - text: "other"
