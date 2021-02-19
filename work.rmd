@@ -7,7 +7,3 @@ description: |
 # Report
 
 - [The State of Free and Open Source Software in India](https://state-of-foss.in/){target="_blank"} | Jan, '21 | CivicDataLab
-
-# News
-
-- [India positioned to be a hub for free and open-source software: Report](https://economictimes.indiatimes.com/tech/information-tech/india-positioned-to-be-a-hub-for-free-and-open-source-software-report/articleshow/80270840.cms){target="_blank"} | Jan, '21 | Economic Times
