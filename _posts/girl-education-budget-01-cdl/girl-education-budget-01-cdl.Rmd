@@ -20,7 +20,7 @@ output:
 citation_url: https://medium.com/civicdatalab/strengthening-financial-accountability-towards-girl-education-b9e3ba9be7d9
 ---
 
-```{r, layout = "l-body-outset"}
+```{r, layout = "l-body-outset", echo = FALSE}
 knitr::include_graphics("image.jpg")
 ```
 
@@ -99,7 +99,7 @@ The Principal-Agent problem is a complex and persistent one which also besets th
 
 ## Acknowledgments {.appendix}
 
-I would like to thank [Arun Sudarsan](https://twitter.com/mrarunsudarsan){target="_blank"} for reviewing the work and [CivicDataLab](https://civicdatalab.in/) for publishing it.
+I would like to thank [Arun Sudarsan](https://twitter.com/mrarunsudarsan){target="_blank"} for reviewing the work and [CivicDataLab](https://civicdatalab.in/){target="_blank"} for publishing it.
 
 ## Author Contributions {.appendix}
 

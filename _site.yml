@@ -14,8 +14,6 @@ navbar:
       href: index.html
     - text: "work"
       href: work.html
-    - text: "about"
-      href: about.html
     - text: "other"
       menu: 
         - text: "hyde"

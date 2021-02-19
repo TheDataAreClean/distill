@@ -125,7 +125,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["girl-education-budget-01-cdl_files/anchor-4.2.2/anchor.min.js","girl-education-budget-01-cdl_files/bowser-1.9.3/bowser.min.js","girl-education-budget-01-cdl_files/distill-2.2.21/template.v2.js","girl-education-budget-01-cdl_files/header-attrs-2.5/header-attrs.js","girl-education-budget-01-cdl_files/jquery-1.11.3/jquery.min.js","girl-education-budget-01-cdl_files/webcomponents-2.0.0/webcomponents.js","image.jpg"]}
+  {"type":"character","attributes":{},"value":["girl-education-budget-01-cdl_files/anchor-4.2.2/anchor.min.js","girl-education-budget-01-cdl_files/bowser-1.9.3/bowser.min.js","girl-education-budget-01-cdl_files/distill-2.2.21/template.v2.js","girl-education-budget-01-cdl_files/header-attrs-2.5/header-attrs.js","girl-education-budget-01-cdl_files/header-attrs-2.6/header-attrs.js","girl-education-budget-01-cdl_files/jquery-1.11.3/jquery.min.js","girl-education-budget-01-cdl_files/popper-2.6.0/popper.min.js","girl-education-budget-01-cdl_files/tippy-6.2.7/tippy-bundle.umd.min.js","girl-education-budget-01-cdl_files/tippy-6.2.7/tippy-light-border.css","girl-education-budget-01-cdl_files/tippy-6.2.7/tippy.css","girl-education-budget-01-cdl_files/tippy-6.2.7/tippy.umd.min.js","girl-education-budget-01-cdl_files/webcomponents-2.0.0/webcomponents.js","image.jpg"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
@@ -317,6 +317,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     text-decoration: underline;
   }
 
+  d-article details {
+    grid-column: text;
+    margin-bottom: 0.8em;
+  }
+
   @media(min-width: 768px) {
 
   d-article pre,
@@ -471,6 +476,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   div.hanging-indent{
     margin-left: 1em; text-indent: -1em;
+  }
+
+  /* Citation hover box */
+
+  .tippy-box[data-theme~=light-border] {
+    background-color: rgba(250, 250, 250, 0.95);
+  }
+
+  .tippy-content > p {
+    margin-bottom: 0;
+    padding: 2px;
   }
 
 
@@ -1138,7 +1154,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       var layout = $(this).attr('data-layout');
 
       // apply layout to markdown level block elements
-      var elements = $(this).children().not('div.sourceCode, pre, script');
+      var elements = $(this).children().not('details, div.sourceCode, pre, script');
       elements.each(function(i, el) {
         var layout_div = $('<div class="' + layout + '"></div>');
         if (layout_div.hasClass('shaded')) {
@@ -1253,6 +1269,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       // move appendix-bottom entries to the bottom
       $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
       $('.appendix-bottom').remove();
+
+      // hoverable references
+      $('span.citation[data-cites]').each(function() {
+        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        window.tippy(this, {
+          allowHTML: true,
+          content: refHtml,
+          maxWidth: 500,
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        });
+      });
 
       // clear polling timer
       clearInterval(tid);
@@ -1415,6 +1445,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--/radix_placeholder_distill-->
   <script src="girl-education-budget-01-cdl_files/header-attrs-2.6/header-attrs.js"></script>
   <script src="girl-education-budget-01-cdl_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="girl-education-budget-01-cdl_files/popper-2.6.0/popper.min.js"></script>
+  <link href="girl-education-budget-01-cdl_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="girl-education-budget-01-cdl_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="girl-education-budget-01-cdl_files/tippy-6.2.7/tippy.umd.min.js"></script>
   <script src="girl-education-budget-01-cdl_files/anchor-4.2.2/anchor.min.js"></script>
   <script src="girl-education-budget-01-cdl_files/bowser-1.9.3/bowser.min.js"></script>
   <script src="girl-education-budget-01-cdl_files/webcomponents-2.0.0/webcomponents.js"></script>
@@ -1522,7 +1556,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p>Through our work in the two aspirational districts of Bahraich and Shravasti, we hope to better track the flow of funds and strengthen financial accountability towards girl education in rural Uttar Pradesh. Given that the final output for the project will be the development of an interactive digital tool for tracking the journey of children’s education we hope that it will help enhance the knowledge and capacity of grassroots organisations, governments and the common public at large enabling them to make more informed decisions. We envision our work as a platform for collaboration between government stakeholders and members of civil society to enable better budgetary decision making in the education sector.</p>
 <p>The Principal-Agent problem is a complex and persistent one which also besets the governance of public education in India. Due to mismatch in the allocations by the government and requirements of the public, there is always the challenge of improper allocation or utilisation despite funds being disbursed. Our work with HAQ attempts to bridge this gap by focusing on the demographic compositions of the two districts. By looking at budget data not just from the Department of Education, but also from the Department of Social Welfare, we hope to bring into the intersectionality of the socio-economic context of the geography along with gender to paint a holistic picture of the public finance landscape in the education sector in these two districts.</p>
 <h2 class="appendix" id="acknowledgments">Acknowledgments</h2>
-<p>I would like to thank <a href="https://twitter.com/mrarunsudarsan" target="_blank">Arun Sudarsan</a> for reviewing the work and <a href="https://civicdatalab.in/">CivicDataLab</a> for publishing it.</p>
+<p>I would like to thank <a href="https://twitter.com/mrarunsudarsan" target="_blank">Arun Sudarsan</a> for reviewing the work and <a href="https://civicdatalab.in/" target="_blank">CivicDataLab</a> for publishing it.</p>
 <h2 class="appendix" id="author-contributions">Author Contributions</h2>
 <p>Arpit Arora &amp; Upasana Hembram conceived of the presented idea, researched the theory and analysed findings. Arpit Arora worked on the project scope and Union Budget findings. Upasana Hembram researched the Union Budget, State Budget and Girl Education Related Schemes. All authors discussed the research and contributed to the final work.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
