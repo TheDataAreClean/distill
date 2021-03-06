@@ -7,3 +7,7 @@ description: |
 # Report
 
 - [The State of Free and Open Source Software in India](https://state-of-foss.in/){target="_blank"} | Jan, '21 | CivicDataLab
+
+# Articles
+
+- [The Many Lives of Open Data](https://medium.com/civicdatalab/the-many-lives-of-open-data-1eb44becc261){target="_blank"} | Mar, '21 | CivicDataLab
